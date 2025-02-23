@@ -74,3 +74,6 @@ since it would always crash our laptops every time we ran it. Because of this, w
 model on this part of the project. This is one very big disadvantage brought by cross-validation
 methods, since they require much more processing power and since we are limited by the resources
 we have, we felt like this can be a negative point for cross-validation in general.
+
+![image](https://github.com/user-attachments/assets/1efe8f8d-133f-4607-899e-c65f4f208034)
+
