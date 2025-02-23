@@ -59,6 +59,6 @@ However, a significant issue arose when applying **Cross-Validation** to the **A
 In the table below, in the row "Architecture", the
 numbers without letters refer to the number of neurons in the convolutional layers (each one being
 followed by a max pooling layer); "f" refers to a flatten layer; "d(x)" refers to a dropout layer, with value
-x; and “D(y)” refers to a dense layer, with value y
+x; and “D(y)” refers to a dense layer, with value y.
 ![image](https://github.com/user-attachments/assets/1efe8f8d-133f-4607-899e-c65f4f208034)
 
