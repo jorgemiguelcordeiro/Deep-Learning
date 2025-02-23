@@ -4,10 +4,11 @@ This project develops a Deep Learning model to classify mask usage based on imag
 # Data Description
 The dataset consists of four categories:
 
-Fully Covered – Faces with masks covering nose and mouth.
-Partially Covered – Faces with masks covering only the mouth.
-Not Covered – Faces without masks.
-Not a Face – Images detected as faces by OpenCV but not containing actual faces.
+ - Fully Covered – Faces with masks covering nose and mouth.
+ - Partially Covered – Faces with masks covering only the mouth.
+ - Not Covered – Faces without masks.
+ - Not a Face – Images detected as faces by OpenCV but not containing actual faces.
+   
 The dataset was sourced from Kaggle and collected using OpenCV, featuring images from YouTube videos and mobile recordings. The model is trained to recognize masks under different conditions, including occlusion, deformations, and various lighting environments.
 
 
