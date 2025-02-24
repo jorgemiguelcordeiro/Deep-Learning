@@ -3,11 +3,11 @@
 This project builds a deep learning model using Keras and TensorFlow to classify handwritten digits from the MNIST dataset.
 
 ## Table of Contents
-1. [Importing the Dependencies]
-2. [Loading the MNIST Data]
-3. [Encoding and Normalizing the Pixel Values]
-4. [Building the Neural Network]
-5. [Building a Predictive System]
+1. Importing the Dependencies
+2. Loading the MNIST Data
+3. Encoding and Normalizing the Pixel Values
+4. Building the Neural Network
+5. Building a Predictive System
 
 ## 1. Importing the Dependencies
 The required libraries such as TensorFlow, Keras, NumPy, and OpenCV are imported.
@@ -28,10 +28,5 @@ A simple feedforward neural network (FNN) is constructed using Keras Sequential 
 ## 5. Building a Predictive System
 A function is created to take an input image, preprocess it, and predict the handwritten digit using the trained model.
 
-
-## Installation & Usage
-### Prerequisites
-Make sure you have Python and the required dependencies installed:
-```bash
-pip install tensorflow numpy opencv-python matplotlib
+![image](https://github.com/user-attachments/assets/d510a6ce-ee1e-46db-b007-140a455bb249)
 
