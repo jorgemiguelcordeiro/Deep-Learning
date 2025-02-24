@@ -27,6 +27,8 @@ A simple feedforward neural network (FNN) is constructed using Keras Sequential 
 
 ## 5. Building a Predictive System
 A function is created to take an input image, preprocess it, and predict the handwritten digit using the trained model.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d510a6ce-ee1e-46db-b007-140a455bb249" width="50%" />
+</p>
 
-![image](https://github.com/user-attachments/assets/d510a6ce-ee1e-46db-b007-140a455bb249)
 
