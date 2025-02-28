@@ -55,5 +55,18 @@ In the table below, in the row "Architecture", the
 numbers without letters refer to the number of neurons in the convolutional layers (each one being
 followed by a max pooling layer); "f" refers to a flatten layer; "d(x)" refers to a dropout layer, with value
 x; and “D(y)” refers to a dense layer, with value y.
+
+# Neural Network Models Comparison
+
+| Feature | MODEL 1 | MODEL 2 | MODEL 3 | MODEL 4 | MODEL 5 |
+|---------|---------|---------|---------|---------|---------|
+| **Architecture** | 32, 64, 128, 128, f, D(512), D(4) | 32, 64, 128, 128, f, d(0.5), D(512), D(4) | 32, 64, 128, 128, f, d(0.2), D(512), D(4) | 16, 32, d(0.2), 64, d(0.2), 128, f, d(0.2), D(512), D(4) | 96, 256, 384, 384, 256, f, D(4096), d(0.5), D(4096), d(0.5), D(4) |
+| **Batch size** | 20 | 20 | 32 | 20 | 64 |
+| **Image size** | 64x64px | 64x64px | 64x64px | 128x128px | 227x227px |
+| **Accuracy (hold-out method)** | 0.97 | 0.93 | 0.95 | 0.95 | 0.91 |
+| **Fully Covered class Precision (hold-out method)** | 0.98 | 0.94 | 0.96 | 0.94 | 0.90 |
+| **Training time, in minutes (hold-out method)** | 3 minutes and 43 seconds | 2 minutes and 6 seconds | 3 minutes and 7 seconds | 7 minutes and 43 seconds | 61 minutes and 21 sec |
+| **Average accuracy (cross-validation method)** | 0.95 | 0.94 | 0.93 | 0.95 | NA |
+
 ![image](https://github.com/user-attachments/assets/1efe8f8d-133f-4607-899e-c65f4f208034)
 
