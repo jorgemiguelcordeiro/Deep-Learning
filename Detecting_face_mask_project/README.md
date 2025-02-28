@@ -68,5 +68,5 @@ x; and “D(y)” refers to a dense layer, with value y.
 | **Training time, in minutes (hold-out method)** | 3 minutes and 43 seconds | 2 minutes and 6 seconds | 3 minutes and 7 seconds | 7 minutes and 43 seconds | 61 minutes and 21 sec |
 | **Average accuracy (cross-validation method)** | 0.95 | 0.94 | 0.93 | 0.95 | NA |
 
-![image](https://github.com/user-attachments/assets/1efe8f8d-133f-4607-899e-c65f4f208034)
+
 
