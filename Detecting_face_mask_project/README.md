@@ -56,8 +56,6 @@ numbers without letters refer to the number of neurons in the convolutional laye
 followed by a max pooling layer); "f" refers to a flatten layer; "d(x)" refers to a dropout layer, with value
 x; and “D(y)” refers to a dense layer, with value y.
 
-# Neural Network Models Comparison
-
 | Feature | MODEL 1 | MODEL 2 | MODEL 3 | MODEL 4 | MODEL 5 |
 |---------|---------|---------|---------|---------|---------|
 | **Architecture** | 32, 64, 128, 128, f, D(512), D(4) | 32, 64, 128, 128, f, d(0.5), D(512), D(4) | 32, 64, 128, 128, f, d(0.2), D(512), D(4) | 16, 32, d(0.2), 64, d(0.2), 128, f, d(0.2), D(512), D(4) | 96, 256, 384, 384, 256, f, D(4096), d(0.5), D(4096), d(0.5), D(4) |
