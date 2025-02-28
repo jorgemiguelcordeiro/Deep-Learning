@@ -1,11 +1,6 @@
 
-
-
-
 # **1 - Introduction & Task Definition**  
-This project develops a Deep Learning model to classify mask usage based on images of people. The objective is to automate the detection of correct mask placement using a model that, when combined with a camera, can determine whether individuals are wearing masks properly before granting access to restricted areas.  
-
-
+This project developed a Deep Learning model to classify mask usage based on images of people. The objective is to automate the detection of correct mask placement using a model that, when combined with a camera, can determine whether individuals are wearing masks properly before granting access to restricted areas. This is a very common project, so there are similar projects to this. This was developed before my master's degree DL project with the purpose of acquiring and learning some of the practices that should be implemented in this field.
 
 # **2 - Data Description**  
 The dataset consists of four categories:  
