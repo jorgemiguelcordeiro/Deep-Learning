@@ -1,3 +1,5 @@
+# Overview
+
 This project aims to develop a deep learning-based computer vision model capable of accurately 
 predicting the species of an animal from an input image. Leveraging convolutional neural 
 networks (CNNs), which are particularly built for image classification tasks, the model is trained 
