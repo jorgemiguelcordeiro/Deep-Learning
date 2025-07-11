@@ -1,2 +1,2 @@
 # Deep-Learning
-See the explanation that is inside of each folder
+The most significant project was developed as part of the Master's in Data Science. The other ones are smaller exercises used for practice. 
